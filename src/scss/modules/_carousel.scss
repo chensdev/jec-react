@@ -1,0 +1,46 @@
+.slide {
+	background-image: url("./assets/img/hero-image-1.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	.hero-content {
+		width: 450px;
+		margin: auto 0;
+		padding-top: 50px;
+		h1,
+		p,
+		button {
+			color: white;
+			font-weight: 900;
+		}
+		h3 {
+			color: #ffd65a;
+			font-size: 18px;
+			line-height: 18px;
+			margin-bottom: 18px;
+		}
+		h1 {
+			font-size: 36px;
+			line-height: 45px;
+		}
+		p {
+			font-family: poppins;
+			font-size: 14px;
+			font-weight: 500;
+			letter-spacing: 0.7px;
+			line-height: 20px;
+			margin: 40px 0 50px 0;
+		}
+	}
+	.container {
+		max-width: unset;
+		width: 1350px;
+		display: flex;
+		justify-content: space-between;
+		.btn-group {
+			align-self: flex-end;
+		}
+	}
+}

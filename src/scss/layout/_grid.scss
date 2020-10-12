@@ -1,0 +1,31 @@
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	height: 895px;
+	width: 100%;
+	align-content: space-between;
+	&__item {
+		&--a {
+			grid-column-start: 1;
+			grid-column-end: 2;
+			grid-row-start: 1;
+			grid-row-end: 4;
+			background-color: blue;
+			max-width: 617px;
+			background-image: url("./assets/img/grid1.png");
+		}
+		&--b {
+			background-color: green;
+			height: 414px;
+			align-self: flex-start;
+			background-image: url("./assets/img/grid2.png");
+		}
+		&--c {
+			background-color: yellow;
+			height: 414px;
+			align-self: flex-end;
+			background-image: url("./assets/img/grid3.png");
+		}
+	}
+}

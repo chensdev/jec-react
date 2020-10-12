@@ -1,0 +1,12 @@
+React Carousel
+
+<Slider>
+    <Slide *props go here* />
+    <Slide *props go here* />
+    <Slide *props go here* />
+</Slider>
+
+slide props 
+slide = {img...title...content...btns...}
+
+slide.props...

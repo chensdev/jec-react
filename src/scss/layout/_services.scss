@@ -1,0 +1,15 @@
+#services {
+	background-image: url("./assets/img/bg-vector.png");
+	padding: 200px 0;
+	background-position: center top;
+	background-size: cover;
+	// background-position: right top;
+	background-repeat: no-repeat;
+	.container {
+		max-width: 1350px;
+	}
+	.services-content {
+		background-color: white;
+		height: 20px;
+	}
+}

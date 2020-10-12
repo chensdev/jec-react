@@ -1,0 +1,11 @@
+#case-studies {
+	padding: 140px 0px;
+	.cs-content {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 40px;
+		.btn--yellow-border {
+			align-self: center;
+		}
+	}
+}
