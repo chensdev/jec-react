@@ -16,22 +16,13 @@
 			font-weight: 900;
 		}
 		h3 {
-			color: #ffd65a;
-			font-size: 18px;
-			line-height: 18px;
-			margin-bottom: 18px;
+			@include text(Fenwick, #ffd65a, 18px, 700);
 		}
 		h1 {
-			font-size: 36px;
-			line-height: 45px;
+			@include text(Poppins, white, 32px, 700);
 		}
 		p {
-			font-family: poppins;
-			font-size: 14px;
-			font-weight: 500;
-			letter-spacing: 0.7px;
-			line-height: 20px;
-			margin: 40px 0 50px 0;
+			@include text(Poppins, white, 14px, 500);
 		}
 	}
 	.container {
