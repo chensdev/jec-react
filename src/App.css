@@ -166,22 +166,6 @@ footer {
   justify-content: flex-end;
 }
 
-#about-us .about-content {
-  background-color: gray;
-  color: white;
-  padding: 80px;
-  align-self: flex-end;
-  width: 600px;
-  height: 380px;
-  background-image: url("./assets/img/bg-vector-2.png");
-  background-color: darkgrey;
-  background-size: cover;
-}
-
-#about-us .btn {
-  color: white;
-}
-
 .btn {
   font-family: fenwick;
   font-size: 14px;
@@ -246,24 +230,24 @@ footer {
 }
 
 .slide .hero-content h3 {
+  font-family: Fenwick;
   color: #ffd65a;
   font-size: 18px;
-  line-height: 18px;
-  margin-bottom: 18px;
+  font-weight: 700;
 }
 
 .slide .hero-content h1 {
-  font-size: 36px;
-  line-height: 45px;
+  font-family: Poppins;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .slide .hero-content p {
-  font-family: poppins;
+  font-family: Poppins;
+  color: white;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: 0.7px;
-  line-height: 20px;
-  margin: 40px 0 50px 0;
 }
 
 .slide .container {
@@ -275,5 +259,43 @@ footer {
 
 .slide .container .btn-group {
   align-self: flex-end;
+}
+
+.info-card {
+  background-color: gray;
+  color: white;
+  padding: 80px;
+  align-self: flex-end;
+  width: 600px;
+  height: 380px;
+  background-image: url("./assets/img/bg-vector-2.png");
+  background-color: darkgrey;
+  background-size: cover;
+}
+
+.info-card .btn {
+  color: white;
+}
+
+.info-card h3 {
+  font-family: Fenwick;
+  color: #ffd65a;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.info-card h1 {
+  font-family: Poppins;
+  color: white;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.info-card p {
+  font-family: Poppins;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
 }
 /*# sourceMappingURL=App.css.map */

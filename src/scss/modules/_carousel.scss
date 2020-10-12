@@ -16,7 +16,7 @@
 			font-weight: 900;
 		}
 		h3 {
-			@include text(Fenwick, #ffd65a, 18px, 700);
+			@include text(Fenwick, $yellow, 18px, 700);
 		}
 		h1 {
 			@include text(Poppins, white, 32px, 700);

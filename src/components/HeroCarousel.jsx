@@ -5,8 +5,9 @@ import slideData from "../data/slideData";
 
 export class HeroCarousel extends Component {
 	render() {
+		/*mapping out slide data to pass down to slide as props*/
 		const slideComponent = slideData.map(item => <HeroSlide slide={item} />);
-
+		/*Slick carousel settings*/
 		const settings = {
 			dots: false,
 			infinite: true,

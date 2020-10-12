@@ -11,4 +11,14 @@
 	.btn {
 		color: white;
 	}
+	h3 {
+		@include text(Fenwick, $yellow, 18px, 700);
+		text-transform: uppercase;
+	}
+	h1 {
+		@include text(Poppins, white, 27px, 500);
+	}
+	p {
+		@include text(Poppins, white, 14px, 500);
+	}
 }
