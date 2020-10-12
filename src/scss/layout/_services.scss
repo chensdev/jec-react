@@ -11,12 +11,25 @@
 		justify-content: space-between;
 	}
 	.services-content {
+		position: relative;
 		background-color: white;
 		width: 500px;
 		padding: 70px 90px;
+		box-shadow: 0 0 6px -3px grey;
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: -100vw;
+			width: 100vw;
+			height: 100%;
+			background-color: white;
+			box-shadow: 0 0 6px -3px grey;
+		}
 	}
 	.servSlide {
 		width: 300px;
 		background: white;
+		box-shadow: 0 0 6px -3px grey;
 	}
 }

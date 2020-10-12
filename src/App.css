@@ -88,14 +88,28 @@ footer {
 }
 
 #services .services-content {
+  position: relative;
   background-color: white;
   width: 500px;
   padding: 70px 90px;
+  box-shadow: 0 0 6px -3px grey;
+}
+
+#services .services-content:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100vw;
+  width: 100vw;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 0 6px -3px grey;
 }
 
 #services .servSlide {
   width: 300px;
   background: white;
+  box-shadow: 0 0 6px -3px grey;
 }
 
 #contact-us {
@@ -154,12 +168,18 @@ footer {
 
 #about-us .about-content {
   background-color: gray;
+  color: white;
+  padding: 80px;
   align-self: flex-end;
   width: 600px;
   height: 380px;
   background-image: url("./assets/img/bg-vector-2.png");
   background-color: darkgrey;
   background-size: cover;
+}
+
+#about-us .btn {
+  color: white;
 }
 
 .btn {
