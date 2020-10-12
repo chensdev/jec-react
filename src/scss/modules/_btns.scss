@@ -16,13 +16,23 @@
 		}
 	}
 	&--frosted {
-		color: #ffffff;
+		background-color: transparent;
 		padding: 40px 30px;
+		position: relative;
 		i {
 			font-size: 20px;
 			color: #ffd65a;
 			margin-left: 10px;
 			line-height: 20px;
+		}
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			box-shadow: inset 0 0 2000px rgba(255, 255, 255, 1);
 		}
 	}
 	&--yellow-border {

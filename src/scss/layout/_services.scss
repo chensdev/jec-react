@@ -24,7 +24,18 @@
 			width: 100vw;
 			height: 100%;
 			background-color: white;
-			box-shadow: 0 0 6px -3px grey;
+			box-shadow: -2px 0 6px -3px grey;
+		}
+		h3 {
+			@include text(Fenwick, $grey, 18px, 700);
+			text-transform: uppercase;
+		}
+		h1 {
+			@include text(Poppins, $darkgrey, 27px, 500);
+		}
+		p {
+			@include text(Poppins, $darkgrey, 14px, 600);
+			margin: 20px 0;
 		}
 	}
 	.servSlide {
