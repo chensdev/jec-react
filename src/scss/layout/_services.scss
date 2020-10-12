@@ -6,10 +6,17 @@
 	// background-position: right top;
 	background-repeat: no-repeat;
 	.container {
-		max-width: 1350px;
+		max-width: 1710px;
+		display: flex;
+		justify-content: space-between;
 	}
 	.services-content {
 		background-color: white;
-		height: 20px;
+		width: 500px;
+		padding: 70px 90px;
+	}
+	.servSlide {
+		width: 300px;
+		background: white;
 	}
 }
