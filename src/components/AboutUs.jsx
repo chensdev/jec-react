@@ -6,7 +6,7 @@ export default function AboutUs() {
 			<div className="container--sm">
 				<div className="about-content">
 					This is the about section.
-					<button>click me, moron</button>
+					<button></button>
 				</div>
 			</div>
 		</section>
