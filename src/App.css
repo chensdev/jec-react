@@ -23,6 +23,11 @@
   align-content: space-between;
 }
 
+.grid__item {
+  display: flex;
+  align-items: flex-end;
+}
+
 .grid__item--a {
   grid-column-start: 1;
   grid-column-end: 2;

@@ -6,6 +6,8 @@
 	width: 100%;
 	align-content: space-between;
 	&__item {
+		display: flex;
+		align-items: flex-end;
 		&--a {
 			grid-column-start: 1;
 			grid-column-end: 2;
