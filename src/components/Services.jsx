@@ -1,6 +1,5 @@
 import React from "react";
 import Slider from "react-slick";
-// import Slider from 'react-slick'
 // import slideData from "../data/slideData";
 
 export default function Services() {
@@ -32,6 +31,7 @@ export default function Services() {
 						<div className="servSlide"><h1>Specialist Lighting Design and Install</h1></div>
 						<div className="servSlide"><h1>Plant Rooms & Boiler Houses</h1></div>
 						<div className="servSlide"><h1>Plant Rooms & Boiler Houses</h1></div>
+						{/*same as hero carousel: set up slide data and apply*/}
 					</Slider>
 				</div>
 			</div>
