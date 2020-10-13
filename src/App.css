@@ -134,12 +134,6 @@ footer {
   margin: 20px 0;
 }
 
-#services .servSlide {
-  width: 300px;
-  background: white;
-  box-shadow: 0 0 6px -3px grey;
-}
-
 #contact-us {
   height: 655px;
   background-image: url("./assets/img/contact-us-hero.png");
@@ -314,6 +308,37 @@ footer {
 
 .slide .container .btn-group {
   align-self: flex-end;
+}
+
+.services-slider {
+  width: 66%;
+}
+
+.services-slider .servSlide {
+  width: 300px !important;
+  height: 420px;
+  display: flex !important;
+  background-image: url("https://images.unsplash.com/photo-1568634143420-dc5368d74e4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60");
+  box-shadow: 0 0 6px -3px grey !important;
+  text-align: center;
+  align-items: flex-end;
+}
+
+.services-slider .servSlide h1 {
+  font-family: Fenwick;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 30px 20px;
+  background-color: #343434;
+}
+
+.pagination {
+  position: absolute;
+  top: -30px;
+  right: 10px;
+  background-color: white;
 }
 
 .info-card {
