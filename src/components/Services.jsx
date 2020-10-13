@@ -13,7 +13,7 @@ export default function Services() {
 		<section id="services">
 			<div className="container">
 				<div className="services-content">
-					<div className="pagination"> {/*connect with custom arrow components*/}
+					<div style={{display: "none"}} className="pagination"> {/*connect with custom arrow components*/}
 						<button className="prev"><i class="fas fa-angle-left"></i></button>
 						<button className="next"><i class="fas fa-angle-right"></i></button>
 					</div>
